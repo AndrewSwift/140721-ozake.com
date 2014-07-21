@@ -141,17 +141,26 @@
 		background-repeat:no-repeat;
 		background-size:100%;
 		width:510;
-		height:170;
+		height:180;
 		position:fixed;
 		top:0px;
 		left:0px;
-		border:0.1em solid #666;
 		padding:1em;
 
- -ms-transform: rotate(353deg); /* IE 9 */
-    -webkit-transform: rotate(353deg); /* Chrome, Safari, Opera */
-    transform: rotate(353deg);
+		-ms-transform: rotate(353deg); /* IE 9 */
+		-webkit-transform: rotate(353deg); /* Chrome, Safari, Opera */
+		transform: rotate(353deg);
+
+		border:0.1em solid #666;
+		outline: .2em solid #000;
 	}
 
+	#zoomtxt h1{
+		font:normal 1.5em/1.5em Abel,sans-serif;
+	}
+
+	#zoomtxt p{
+		font:normal 1em/1em Abel,sans-serif;
+	}
 
 /* -------------------------------------------------- fin */
