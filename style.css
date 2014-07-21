@@ -137,16 +137,20 @@
 		text-align:center;
 		color:#fff;
 		font:normal 0.2em/0.6em helvetica, sans-serif;
-		background-image:url(images/opaque70.png);
+		background-image:url(images/opaque90.png);
 		background-repeat:no-repeat;
 		background-size:100%;
-		width:200;
-		height:200;
+		width:510;
+		height:170;
 		position:fixed;
-		bottom:0px;
-		left:-1000px;
+		top:0px;
+		left:0px;
 		border:0.1em solid #666;
 		padding:1em;
+
+ -ms-transform: rotate(353deg); /* IE 9 */
+    -webkit-transform: rotate(353deg); /* Chrome, Safari, Opera */
+    transform: rotate(353deg);
 	}
 
 

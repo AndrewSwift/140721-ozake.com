@@ -153,13 +153,7 @@
 		$('#zoomtxt').html('');
 	}
 
-	function updatetext(obj){
-		// $(".text").load("helloworld.txt");
-		s = obj.src + '.txt?' + Math.random();
-		$("#zoomtxt").load(s);
-	}
-
-	function msdown(obj,marj){
+	function msdown(obj,marj,txtg,txth){
 
 		ow = obj.width;
 		oh = obj.height;
@@ -201,7 +195,16 @@
 		$('#zoomimg').show();
 		$('#zoom').css('width','100%');
 
-		updatetext(obj);
+		updatetext(obj,txtg,txth);
+	}
+
+	function updatetext(obj,txtg,txth){
+		// $(".text").load("helloworld.txt");
+		s = obj.src + '.txt?' + Math.random();
+		$('#zoomtxt').load(s);
+		$('#zoomtxt').css('left',txtg);
+		$('#zoomtxt').css('top',txth);
+// if text is to right, reverse rotation
 	}
 
 //------------------------------------------------------- fin
