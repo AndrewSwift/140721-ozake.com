@@ -140,27 +140,33 @@
 		background-image:url(images/opaque90.png);
 		background-repeat:no-repeat;
 		background-size:100%;
-		width:510;
-		height:180;
+		width:27em;
+		height:8em;
 		position:fixed;
 		top:0px;
-		left:0px;
-		padding:1em;
+		left:-10000px;
+		padding:0.2em;
+
+		white-space:wrap;
 
 		-ms-transform: rotate(353deg); /* IE 9 */
 		-webkit-transform: rotate(353deg); /* Chrome, Safari, Opera */
 		transform: rotate(353deg);
 
 		border:0.1em solid #666;
-		outline: .2em solid #000;
+		outline:0.2em solid #000;
 	}
 
 	#zoomtxt h1{
-		font:normal 1.5em/1.5em Abel,sans-serif;
+		padding:0;
+		margin:0;
+		font:normal 1.9em/1.5em Abel,sans-serif;
 	}
 
 	#zoomtxt p{
-		font:normal 1em/1em Abel,sans-serif;
+		padding:0;
+		margin:0;
+		font:normal 1.1em/1.5em Helvetica,sans-serif;
 	}
 
 /* -------------------------------------------------- fin */

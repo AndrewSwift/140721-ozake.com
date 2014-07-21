@@ -150,7 +150,7 @@
 		$('#zoomimg').hide();
 
 		$('#zoom').css('width','0%');
-		$('#zoomtxt').html('');
+		$('#zoomtxt').css('left',-10000);
 	}
 
 	function msdown(obj,marj,txtg,txth){
